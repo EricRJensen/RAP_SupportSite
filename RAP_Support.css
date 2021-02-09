@@ -1,0 +1,568 @@
+/* Font types */
+/* Regular */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@font-face{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+}
+
+ /* Regular italic */
+@font-face{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 400;
+}
+
+ /* Med */
+@font-face{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+}
+
+ /* Med italic */
+@font-face{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Foundation */
+body,
+input,
+button,
+select,
+textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+strong {
+    font-weight: 600;
+}
+
+textarea,
+input[type=text],
+input[type=password],
+input[type=datetime],
+input[type=datetime-local],
+input[type=date],
+input[type=month],
+input[type=time],
+input[type=week],
+input[type=number],
+input[type=email],
+input[type=url],
+input[type=search],
+input[type=tel],
+input[type=color],
+.uneditable-input {
+    background-color: #fff;
+    border: 1px solid #EFEFEF;
+    box-shadow: none;
+}
+
+a {
+    color: #4495D8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 10px;
+    color: #1a1500;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1a1500;
+    text-shadow: none;
+    background-color: #ffdb4d;
+    background-image: none;
+    filter: unset;
+    border-color: rgba(0, 0, 0, .07);
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+a.btn {
+    color: #1a1500;
+    text-decoration: none;
+}
+
+.btn:focus,
+.btn:hover {
+    background: #fc0;
+    border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .12) rgba(0, 0, 0, .12) rgba(0, 0, 0, .07);
+    text-decoration: none;
+}
+
+.contentWrapper h1,
+.contentWrapper h2,
+.contentWrapper h3,
+.contentWrapper h4,
+.contentWrapper h5 {
+    font-weight: 500;
+    color: #161B1E;
+}
+
+/* Menu and search */
+
+
+/* Banner section */
+#docsSearch {
+    color: #1a1500;
+    text-shadow: 2px 2px 3px #fafafa;
+    background: #569ef5;
+    background: url(https://i.ibb.co/YZ6T8d1/20190602-191606.jpg);
+    background-size: cover;
+    background-position: 35% 35%;
+    padding: 1.5em 0 4.9em 0;
+}
+
+.navbar,
+.navbar .navbar-inner {
+    background: #fafafa;
+    box-shadow: none;
+}
+
+.navbar .brand,
+.navbar .nav li a:hover,
+.navbar .nav li a:focus,
+.navbar .nav .active a,
+.navbar .nav .active a:hover,
+.navbar .nav .active a:focus {
+    color: #161B1E;
+}
+
+.navbar .nav li a,
+.navbar .icon-private-w {
+    color: #161B1E;
+}
+
+@media (min-width: 769px) {
+    .navbar .nav {
+        position: absolute; 
+        left: auto; 
+        bottom: 0; 
+        margin-right: 0; 
+} 
+
+/* Maybe here for controlling size of logo */
+.navbar .brand img {
+    border: none;
+    max-width: 130px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: auto;
+}
+
+.navbar .brand {
+    height: 32px;
+    width: 326px;
+    margin: 15px 0;
+    padding: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#searchBar .search-query {
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1;
+    width: 100%;
+    height: 40px;
+    color: #161B1E;
+    border: 0;
+}
+
+#searchBar .search-query::placeholder {
+    color: #DADEE1;
+}
+
+#searchBar .search-query:focus {
+    box-shadow: 0 0 0 2px #4495d8;
+}
+
+#searchBar button {
+    color: #fff;
+    text-shadow: none;
+    background: #4495D8;
+    border-radius: 0 3px 3px 0;
+    border: 0;
+    font-size: 16px;
+    padding: 0.7em 1.5em;
+    height: 40px;
+    right: 0;
+}
+
+#searchBar button:hover {
+    background: #285796;
+}
+
+#searchBar button .icon-search {
+    display: inline;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#serp-dd {
+    top: 100px;
+    border: 1px solid #EDEDED;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .08);
+    border-radius: 3px;
+}
+
+#serp-dd .result>li {
+    padding: 5px;
+}
+
+/* Home collections */
+
+.twoCol h2 a,
+.threeCol h2 a {
+    font-size: 18px;
+    color: #161B1E;
+    display: inline-block;
+    border-bottom: 0;
+}
+
+.twoCol .popArticles,
+.threeCol .popArticles,
+.most-pop-articles .popArticles {
+    font-size: 15px;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.icon-article-doc:before {
+    content: "";
+    display: none;
+}
+
+.twoCol .popArticles a,
+.threeCol .popArticles a,
+.most-pop-articles .popArticles a {
+    margin-left: 0;
+}
+
+.threeCol .collection {
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .04);
+}
+
+.threeCol .collection .collection-body {
+    padding: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    max-height: 220px;
+}
+
+.threeCol .collection .collection-body ul {
+    overflow: hidden;
+}
+
+#docsSearch h1 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.collection-head:before {
+    content: " ";
+    display: block;
+    height: 180px;
+    background: #EDEDED;
+    border-radius: 3px 3px 0 0;
+}
+
+.threeCol .collection .collection-head {
+    padding: 0;
+}
+
+.twoCol h2,
+.threeCol h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoCol .browse,
+.threeCol .browse {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Collection thumbnail - add as many you want, based on the number of collections you have. For finding your category number, you can find each collection's unique number in their URL */
+#category-5 h3:before {
+    background: url('https://i.ibb.co/4JdXQLr/satellite.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* Collection thumbnail */
+#category-6 h3:before {
+    background: url('https://i.ibb.co/47mp37R/open-book.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#category-7 h3:before {
+    background: url('https://i.ibb.co/1GnfSqL/ecosystem.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#category-8 h3:before {
+    background: url('https://i.ibb.co/MCf5TB1/help.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#category-10 h3:before {
+    background: url('https://i.ibb.co/HXQBDq9/video-tutorial.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#category-11 h3:before {
+    background: url('https://i.ibb.co/7vcNyb1/Change.png');
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* Home categories */
+
+.collection-category .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.category-list .category {
+    flex: 0 0 32%;
+    margin: 0 10px 20px -1px;
+    padding: 0 0 15px;
+    width: 30%;
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+    box-shadow: none;
+    background: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .category-list .category {
+        flex: 1 1 100%;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) and (max-width: 768px) {
+	.category-list {
+    	text-align: center;
+	}
+}
+.category-list .category:hover {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .04);
+}
+.category-list {
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+}
+.collection-category h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.category-list .category h3 {
+    color: #161B1E;
+    margin: 0 0 10px;
+}
+
+.category-list .category h3:before {
+    content: " ";
+    display: block;
+    height: 180px;
+    width: inherit;
+    margin: 0 0 20px;
+    background: #EDEDED;
+    border-radius: 3px 3px 0 0;
+}
+
+.category-list .category .article-count {
+    margin-top: 0;
+}
+/* Article page */
+
+#main-content {
+    background: none;
+}
+
+.contentWrapper {
+    border: 0;
+    padding: 40px;
+}
+
+#sidebar {
+    position: sticky;
+    top: 32px;
+}
+
+#sidebar form .search-query {
+    border: 1px solid #D0D0D0;
+    color: #161B1E;
+}
+
+#serp-dd.sb {
+    top: 42px;
+    border-radius: 3px;
+}
+
+#sidebar h3 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #161B1E;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+#sidebar .nav-list a {
+    display: inline-block;
+    color: #73777A;
+    font-size: 18px;
+    padding: 0 0 20px;
+    line-height: 24px;
+    margin-left: 0;
+}
+
+#sidebar .nav-list .active a,
+#sidebar .nav-list .active a:hover,
+#sidebar .nav-list .active a:focus {
+    font-weight: 500;
+    color: #161B1E;
+    background: none;
+    text-shadow: none;
+}
+
+#sidebar .nav-list .active a .icon-arrow,
+#sidebar .nav-list .active a:hover .icon-arrow,
+#sidebar .nav-list .active a:focus .icon-arrow {
+    display: none;
+}
+
+#fullArticle h1,
+#fullArticle h2,
+#fullArticle h3,
+#fullArticle h4,
+#fullArticle h5 {
+    margin: 40px 0 20px 0;
+    color: #161B1E;
+}
+
+#fullArticle h4 {
+    margin-top: 20px;
+}
+
+#fullArticle p,
+#fullArticle ul,
+#fullArticle ol,
+#fullArticle li,
+#fullArticle div,
+#fullArticle blockquote,
+#fullArticle dd,
+#fullArticle table {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5e5f;
+}
+
+#fullArticle p:last-child {
+    margin-bottom: 0;
+}
+
+#fullArticle strong {
+    color: #161B1E;
+}
+
+#fullArticle .title {
+    margin: 0 40px 40px 0;
+}
+
+#fullArticle .printArticle {
+    right: 30px;
+    top: 50px;
+}
+
+#fullArticle img {
+    margin: 20px 0;
+    padding: 0;
+    border-radius: 0px;
+    border: 1px solid #EDEDED;
+}
+
+.articleFoot p,
+.articleFoot time {
+    color: #9EA1A3;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#sbContact {
+    color: #9EA1A3;
+    border-bottom: 1px solid #9EA1A3;
+}
+
+#sbContact:hover {
+    color: #9EA1A3;
+    text-decoration: none;
+    border-bottom-color: #9EA1A3;
+}
+
+/* Articles list */
+
+#categoryHead h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.articleList {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.articleList li {
+    margin: 18px 0;
+    padding-left: 0;
+    line-height: 24px;
+}
+
+.articleList a {
+    margin-left: 0;
+}
