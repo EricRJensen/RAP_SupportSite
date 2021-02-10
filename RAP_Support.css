@@ -67,17 +67,17 @@ input[type=color],
 }
 
 a {
-    color: #4495D8;
+    color: #3e4245;
 }
 
 .btn {
     display: inline-block;
     padding: 11px 10px;
-    color: #1a1500;
+    color: ;
     margin-bottom: 0;
     font-size: 15px;
     line-height: 18px;
-    color: #1a1500;
+    color: #3e4245;
     text-shadow: none;
     background-color: #ffdb4d;
     background-image: none;
@@ -88,7 +88,7 @@ a {
 }
 
 a.btn {
-    color: #1a1500;
+    color: #3e4245;
     text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ a.btn {
 .contentWrapper h4,
 .contentWrapper h5 {
     font-weight: 500;
-    color: #161B1E;
+    color: #3e4245;
 }
 
 /* Menu and search */
@@ -113,13 +113,13 @@ a.btn {
 
 /* Banner section */
 #docsSearch {
-    color: #1a1500;
-    text-shadow: 2px 2px 3px #fafafa;
+    color: #fff;
+    text-shadow: 1px 1px 3px #3e4245;
     background: #569ef5;
     background: url(https://i.ibb.co/YZ6T8d1/20190602-191606.jpg);
     background-size: cover;
     background-position: 35% 35%;
-    padding: 1.5em 0 4.9em 0;
+    padding: 0em 0 5em 0;
 }
 
 .navbar,
@@ -134,12 +134,12 @@ a.btn {
 .navbar .nav .active a,
 .navbar .nav .active a:hover,
 .navbar .nav .active a:focus {
-    color: #161B1E;
+    color: #3e4245;
 }
 
 .navbar .nav li a,
 .navbar .icon-private-w {
-    color: #161B1E;
+    color: #3e4245;
 }
 
 @media (min-width: 769px) {
@@ -150,16 +150,25 @@ a.btn {
         margin-right: 0; 
 } 
 
-/* Maybe here for controlling size of logo */
+/* Next two sections control styling of logo */
 .navbar .brand img {
     border: none;
-    max-width: 130px;
+    max-width: 400px;
     margin: -1px;
     overflow: hidden;
     padding: 0;
     position: absolute;
     width: auto;
 }
+    
+#mainNav .brand span {
+	display: inline-block;
+	text-indent: -9000px;
+	width: 381px;
+	height: 75px;
+	background: url(https://i.ibb.co/RgPyWSq/LogoText.png) no-repeat 0 0;
+	background-size: 100%;
+}    
 
 .navbar .brand {
     height: 32px;
@@ -176,7 +185,7 @@ a.btn {
     line-height: 1;
     width: 100%;
     height: 40px;
-    color: #161B1E;
+    color: #3e4245;
     border: 0;
 }
 
@@ -212,9 +221,9 @@ a.btn {
 }
 
 #serp-dd {
-    top: 100px;
+    top: 65px;
     border: 1px solid #EDEDED;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .08);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, .08);
     border-radius: 3px;
 }
 
@@ -227,7 +236,7 @@ a.btn {
 .twoCol h2 a,
 .threeCol h2 a {
     font-size: 18px;
-    color: #161B1E;
+    color: #3e4245;
     display: inline-block;
     border-bottom: 0;
 }
@@ -272,8 +281,10 @@ a.btn {
 }
 
 #docsSearch h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 1000;
+    margin-top: 18px;
+    padding: 60px 0px 20px 0px;
 }
 
 .collection-head:before {
@@ -311,7 +322,7 @@ a.btn {
 /* Collection thumbnail - add as many you want, based on the number of collections you have. For finding your category number, you can find each collection's unique number in their URL */
 #category-5 h3:before {
     background: url('https://i.ibb.co/4JdXQLr/satellite.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -319,35 +330,35 @@ a.btn {
 /* Collection thumbnail */
 #category-6 h3:before {
     background: url('https://i.ibb.co/47mp37R/open-book.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 #category-7 h3:before {
     background: url('https://i.ibb.co/1GnfSqL/ecosystem.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 #category-8 h3:before {
     background: url('https://i.ibb.co/MCf5TB1/help.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 #category-10 h3:before {
     background: url('https://i.ibb.co/HXQBDq9/video-tutorial.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 #category-11 h3:before {
     background: url('https://i.ibb.co/7vcNyb1/Change.png');
-    background-size: 50%;
+    background-size: 40%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -401,7 +412,7 @@ a.btn {
 }
 
 .category-list .category h3 {
-    color: #161B1E;
+    color: #3e4245;
     margin: 0 0 10px;
 }
 
@@ -418,6 +429,9 @@ a.btn {
 .category-list .category .article-count {
     margin-top: 0;
 }
+
+    
+    
 /* Article page */
 
 #main-content {
@@ -447,7 +461,7 @@ a.btn {
 #sidebar h3 {
     font-size: 15px;
     line-height: 24px;
-    color: #161B1E;
+    color: #3e4245;
     font-weight: 500;
     margin-bottom: 18px;
 }
@@ -465,7 +479,7 @@ a.btn {
 #sidebar .nav-list .active a:hover,
 #sidebar .nav-list .active a:focus {
     font-weight: 500;
-    color: #161B1E;
+    color: #3e4245;
     background: none;
     text-shadow: none;
 }
@@ -482,7 +496,7 @@ a.btn {
 #fullArticle h4,
 #fullArticle h5 {
     margin: 40px 0 20px 0;
-    color: #161B1E;
+    color: #3e4245;
 }
 
 #fullArticle h4 {
@@ -507,7 +521,7 @@ a.btn {
 }
 
 #fullArticle strong {
-    color: #161B1E;
+    color: #3e4245;
 }
 
 #fullArticle .title {
@@ -545,6 +559,53 @@ a.btn {
     border-bottom-color: #9EA1A3;
 }
 
+    
+    
+/*For multi-tabbed tables */
+.tabs {
+  position: relative;   
+  min-height: 500px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  font-size: 15px;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+    
+    
+    
+    
+    
 /* Articles list */
 
 #categoryHead h1 {
